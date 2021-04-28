@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c2379e622c445208322d06527be2878" Name="Diagram1" ZoomLevel="75">
+        <EntityTypeShape EntityType="ip25Model.sysdiagrams" Width="1.5" PointX="14.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Аудитории" Width="1.5" PointX="9" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Виды_занятий" Width="1.5" PointX="9" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Группы" Width="1.5" PointX="9" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Дисциплина" Width="1.5" PointX="9.875" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Дни_недели" Width="1.5" PointX="12.375" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Пары" Width="1.5" PointX="14.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Расписание" Width="1.5" PointX="11.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ip25Model.Четность_недели" Width="1.5" PointX="17" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Аудитории" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Виды_занятий" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Группы" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Дисциплина" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Дни_недели" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Пары" ManuallyRouted="false" />
+        <AssociationConnector Association="ip25Model.FK_Расписание_Четность_недели" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ip25Model.Список_пользователей" Width="2.25" PointX="13.75" PointY="2.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

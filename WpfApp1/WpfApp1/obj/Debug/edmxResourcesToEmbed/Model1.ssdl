@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ip25Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Аудитории">
+    <Key>
+      <PropertyRef Name="Код аудитории" />
+    </Key>
+    <Property Name="Код аудитории" Type="int" Nullable="false" />
+    <Property Name="Аудитория" Type="int" />
+  </EntityType>
+  <EntityType Name="Виды занятий">
+    <Key>
+      <PropertyRef Name="Код вида" />
+    </Key>
+    <Property Name="Код вида" Type="int" Nullable="false" />
+    <Property Name="Вид занятия" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Группы">
+    <Key>
+      <PropertyRef Name="Код группы" />
+    </Key>
+    <Property Name="Код группы" Type="int" Nullable="false" />
+    <Property Name="Группа" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Дисциплина">
+    <Key>
+      <PropertyRef Name="Код дисциплины" />
+    </Key>
+    <Property Name="Код дисциплины" Type="int" Nullable="false" />
+    <Property Name="Дисциплина" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Дни недели">
+    <Key>
+      <PropertyRef Name="Код дня недели" />
+    </Key>
+    <Property Name="Код дня недели" Type="int" Nullable="false" />
+    <Property Name="День недели" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Пары">
+    <Key>
+      <PropertyRef Name="Код пары" />
+    </Key>
+    <Property Name="Код пары" Type="int" Nullable="false" />
+    <Property Name="Номер пары" Type="int" />
+    <Property Name="Время начала" Type="time" Precision="7" />
+    <Property Name="Время окончания" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="Расписание">
+    <Key>
+      <PropertyRef Name="Код расписания" />
+    </Key>
+    <Property Name="Код расписания" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="День недели" Type="int" />
+    <Property Name="Четность" Type="int" />
+    <Property Name="Пара" Type="int" />
+    <Property Name="Группа" Type="int" />
+    <Property Name="Дисциплина" Type="int" />
+    <Property Name="Вид занятия" Type="int" />
+    <Property Name="Аудитория" Type="int" />
+  </EntityType>
+  <EntityType Name="Список пользователей">
+    <Key>
+      <PropertyRef Name="Логин" />
+    </Key>
+    <Property Name="Логин" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Пароль" Type="nvarchar" MaxLength="50" />
+    <Property Name="Имя пользователя" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ссылка на фото" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Четность недели">
+    <Key>
+      <PropertyRef Name="Код четности" />
+    </Key>
+    <Property Name="Код четности" Type="int" Nullable="false" />
+    <Property Name="Неделя" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Расписание_Аудитории">
+    <End Role="Аудитории" Type="Self.Аудитории" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Аудитории">
+        <PropertyRef Name="Код аудитории" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Аудитория" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Виды занятий">
+    <End Role="Виды занятий" Type="Self.Виды занятий" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Виды занятий">
+        <PropertyRef Name="Код вида" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Вид занятия" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Группы">
+    <End Role="Группы" Type="Self.Группы" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Группы">
+        <PropertyRef Name="Код группы" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Группа" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Дисциплина">
+    <End Role="Дисциплина" Type="Self.Дисциплина" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Дисциплина">
+        <PropertyRef Name="Код дисциплины" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Дисциплина" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Дни недели">
+    <End Role="Дни недели" Type="Self.Дни недели" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Дни недели">
+        <PropertyRef Name="Код дня недели" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="День недели" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Пары">
+    <End Role="Пары" Type="Self.Пары" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пары">
+        <PropertyRef Name="Код пары" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Пара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расписание_Четность недели">
+    <End Role="Четность недели" Type="Self.Четность недели" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Расписание" Type="Self.Расписание" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Четность недели">
+        <PropertyRef Name="Код четности" />
+      </Principal>
+      <Dependent Role="Расписание">
+        <PropertyRef Name="Четность" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ip25ModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Аудитории" EntityType="Self.Аудитории" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Виды занятий" EntityType="Self.Виды занятий" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Группы" EntityType="Self.Группы" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Дисциплина" EntityType="Self.Дисциплина" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Дни недели" EntityType="Self.Дни недели" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пары" EntityType="Self.Пары" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Расписание" EntityType="Self.Расписание" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Список пользователей" EntityType="Self.Список пользователей" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Четность недели" EntityType="Self.Четность недели" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Расписание_Аудитории" Association="Self.FK_Расписание_Аудитории">
+      <End Role="Аудитории" EntitySet="Аудитории" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Виды занятий" Association="Self.FK_Расписание_Виды занятий">
+      <End Role="Виды занятий" EntitySet="Виды занятий" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Группы" Association="Self.FK_Расписание_Группы">
+      <End Role="Группы" EntitySet="Группы" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Дисциплина" Association="Self.FK_Расписание_Дисциплина">
+      <End Role="Дисциплина" EntitySet="Дисциплина" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Дни недели" Association="Self.FK_Расписание_Дни недели">
+      <End Role="Дни недели" EntitySet="Дни недели" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Пары" Association="Self.FK_Расписание_Пары">
+      <End Role="Пары" EntitySet="Пары" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расписание_Четность недели" Association="Self.FK_Расписание_Четность недели">
+      <End Role="Четность недели" EntitySet="Четность недели" />
+      <End Role="Расписание" EntitySet="Расписание" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

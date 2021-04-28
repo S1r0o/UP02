@@ -1,0 +1,78 @@
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Stud417\Desktop\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window1.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window1.baml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window2.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window2.baml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window3.g.cs
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window3.baml
+Y:\Student\18ИП1,2\ПМ.02 УП.02\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window1.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window2.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window3.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window1.baml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window2.baml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\Window3.baml
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\stud417\Desktop\Копанов В Н\Копанов В Н\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
